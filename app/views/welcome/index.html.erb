@@ -4,3 +4,8 @@
 <div class="demo-space">
   <%= react_component 'DemoComponent', {}, prerender: true %>
 </div>
+
+<h3>UserList</h3>
+<div class="demo-space">
+  <%= react_component 'UserList', { title: 'A list of users', users: @users.as_json }, prerender: true %>
+</div>
